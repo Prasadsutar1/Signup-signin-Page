@@ -10,10 +10,17 @@ A simple and responsive signup/signin application built with **HTML**, **CSS**, 
 
 ```
 Signup-signin-Page/
-├── index.html         # Signup Page
-├── login.html         # Signin Page
-├── style.css          # Styling for both pages
-├── script.js          # JavaScript logic
+├── frontend
+    ├── index.html     # Signup/signin Page
+    ├── script.js    
+    ├── style.css 
+├── Server             
+    ├── .gitignore     # JavaScript logic
+    ├── db.js          # JavaScript logic
+    ├── index.js       # JavaScript logic
+    ├── .env      # JavaScript logic
+    ├── package.json
+    └── README.md
 └── README.md          # Project documentation
 ```
 
