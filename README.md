@@ -15,10 +15,10 @@ Signup-signin-Page/
     ├── script.js    
     ├── style.css 
 ├── Server             
-    ├── .gitignore     # JavaScript logic
-    ├── db.js          # JavaScript logic
-    ├── index.js       # JavaScript logic
-    ├── .env      # JavaScript logic
+    ├── .gitignore     
+    ├── db.js          # Database logic
+    ├── index.js       # express Server
+    ├── .env           # Secrets
     ├── package.json
     └── README.md
 └── README.md          # Project documentation
