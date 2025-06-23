@@ -39,7 +39,7 @@ form2.addEventListener('submit', async (e) => {
 
     console.log("done");
     try {
-        const response2 = await fetch('http://localhost:3000/signup', {
+        const response2 = await fetch('https://signup-signin-page-three.vercel.app/signup', {
             method: 'POST',
             headers: {
                 'Content-Type': 'application/json'
@@ -104,7 +104,7 @@ form.addEventListener('submit', async (e) => {
         return;
     }
     try {
-        const response = await fetch('http://localhost:3000/signin', {
+        const response = await fetch('https://signup-signin-page-three.vercel.app/signin', {
             method: 'POST',
             headers: {
                 'Content-Type': 'application/json'
